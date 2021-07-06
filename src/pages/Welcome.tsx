@@ -9,11 +9,10 @@ import logoSocial from '../image/logoSocial.png';
 export function Welcome() {
     return(
         <SafeAreaView style={styles.container}>
-
             <Image source={homeImg} style={styles.imageHeader}/>
 
             <Title>
-                Bem Vindo!
+                Seja Bem Vindo!
             </Title>
 
             <Image source={logoSocial} style={styles.imageBody}/>
